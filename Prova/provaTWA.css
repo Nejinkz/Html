@@ -1,0 +1,107 @@
+@font-face{
+	font-family:minhafonte;
+	src:url('AManoBlaxtendida.ttf');
+}
+body{
+	background-color:#333333;
+	font-family: verdana;
+}
+.principal{
+	width:80%;
+	display:block;
+	margin:3% auto;
+	background-color:#ececec;
+	box-shadow: 8px 8px 15px gray;
+}
+.paragrafo{
+	font-size:48px;
+	font-weight:bolder;
+	padding:3%;
+	color:#333333;
+	text-shadow: 4px 4px 10px gray;
+	margin-bottom:2%;
+}
+
+.cabecalho{
+	margin:2% auto;
+	width:50%;
+}
+.menu{
+	width:100%;
+	margin-top:3%;
+}
+#tituloSecao,#tituloResultado{
+	text-align:center;
+	background-color:#02482a;
+	padding:1.5%;
+	color:white;
+	margin-top:0.5%;
+	font-size:20px;
+	font-weight:bolder;
+}
+.texto{
+	text-align:justify;
+	text-indent:4%;
+	width:97%;
+	padding-bottom:2%;
+	margin:0 auto;
+	font-size:19px;
+}
+.botao{
+	padding:1.2% 0;
+	font-size:22px;
+	font-family:verdana;
+	font-weight:bold;
+	background-color:#0911a7;
+	color:white;
+	border:0.1em solid #ececec;
+	cursor:pointer;
+	width:25%;
+	text-align:center;
+}
+.previdencia{
+	width:100%;
+}
+.frame{
+	width:78.7%;
+	position:absolute;
+	height:63%;
+}
+#botaoContato{
+	margin-right:0;
+}
+input{
+	width:20%;
+	padding:1%;
+	border:2px solid #02482a;
+	border-radius:5px;
+	margin:2%;
+}
+label{
+	font-size:18px;
+	font-weight:bolder;
+	padding:3%;
+	margin-left:2%;
+	color:#02482a;
+	vertical-align:middle;
+}
+.botao:hover{
+	background-color:#fa8908;
+}
+.fundoAzul{
+	background-color:#0911a7;
+}
+.fundoLaranja{
+	background-color:#fa8908;
+}
+#imgTabela1,#imgTabela2{
+	margin-left:2%;
+	vertical-align:top;
+}
+#imgINSS{
+	width:20%;
+	float:left;
+	padding:2%;
+	margin:0 auto;
+	display:block;
+}
